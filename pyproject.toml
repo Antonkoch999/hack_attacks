@@ -7,6 +7,7 @@ authors = ["Anton Kochnevski <kochnevskiia@rocketdata.io>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^4.1.1"
+beautifulsoup4 = "^4.11.1"
 
 [tool.poetry.dev-dependencies]
 

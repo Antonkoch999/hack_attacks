@@ -1,0 +1,13 @@
+<html>
+<head><title>XSS Forms</title></head>
+<body>
+<form action="" method="get">
+    <input type="text" name="q">
+    <input type="submit" value="Submit">
+</form>
+
+{% if query %}
+    Query: {{query|safe}} <br/>
+{% endif %}
+</body>
+</html>
