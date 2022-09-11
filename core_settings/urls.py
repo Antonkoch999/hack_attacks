@@ -20,5 +20,5 @@ from app.views import xss
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('xss', xss)
+    path('xss', xss),
 ]
